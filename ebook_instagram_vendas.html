@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ganhe Seguidores com um eBook</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+    p {
+      font-weight: 600;
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+      max-width: 600px;
+    }
+    .features {
+      background: rgba(255, 64, 129, 0.2);
+      border-radius: 20px;
+      padding: 25px 30px;
+      max-width: 650px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 15px rgba(255,64,129,0.3);
+      text-align: left;
+    }
+    .features h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #ff4081;
+      text-align: center;
+    }
+    .features ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .features li {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      padding-left: 20px;
+      position: relative;
+    }
+    .features li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #00ffae;
+      font-weight: bold;
+    }
+    .price-box {
+      background-color: #ff4081;
+      padding: 20px 40px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      display: inline-block;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+    .original-price {
+      text-decoration: line-through;
+      font-size: 1.2rem;
+      opacity: 0.7;
+      margin-bottom: 5px;
+    }
+    .discounted-price {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.8rem;
+      font-weight: normal;
+    }
+    .buy-button {
+      font-family: 'Anton', sans-serif;
+      background-color: #00ffae;
+      color: #000;
+      padding: 18px 45px;
+      border: none;
+      border-radius: 15px;
+      font-size: 1.6rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      box-shadow: 0 6px 12px rgba(0,255,174,0.6);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 40px;
+      max-width: 300px;
+    }
+    .buy-button:hover {
+      background-color: #00cc8f;
+      box-shadow: 0 8px 20px rgba(0,204,143,0.8);
+    }
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 900px;
+      margin-bottom: 40px;
+    }
+    .gallery img {
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0,255,174,0.8);
+    }
+    footer {
+      font-size: 0.9rem;
+      opacity: 0.5;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ganhe Seguidores com um eBook</h1>
+  <p>Descubra a estratégia simples que transforma perfis comuns em imãs de seguidores!</p>
+
+  <section class="features">
+    <h2>O que você vai aprender:</h2>
+    <ul>
+      <li>Como otimizar seu perfil para atrair seguidores reais e engajados</li>
+      <li>Táticas comprovadas para criar conteúdo que viraliza no Instagram</li>
+      <li>Segredos para usar hashtags e ferramentas gratuitas para crescer rápido</li>
+      <li>Estratégias de interação para manter sua audiência sempre ativa</li>
+      <li>Dicas para transformar seguidores em clientes e aumentar sua renda</li>
+    </ul>
+  </section>
+
+  <div class="price-box">
+    <div class="original-price">De R$100,00</div>
+    <div class="discounted-price">Por apenas R$19,90</div>
+  </div>
+  <button class="buy-button" onclick="window.location.href='https://pay.kiwify.com.br'">Comprar Agora</button>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="Smartphone Instagram" />
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Notebook aberto" />
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Pessoa usando smartphone e notebook" />
+  </div>
+
+  <footer>© 2025 - Seu Ebook de Crescimento Instagram</footer>
+</body>
+</html>
